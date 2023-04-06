@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Movie Seat Booking</title>
+  </head>
+  <body>
+    
+    <div class="movie-container">
+      <label>Pick a movie:</label>
+      <select id="movie">
+        <option value="180">Drishyam 2(180Rs)</option>
+        <option value="180">Wakanda Forever(180Rs)</option>
+        <option value="180">Kantara(180Rs)</option>
+        <option value="180">Pushpa(180Rs)</option>
+        <option value="180">KGF 2 (180Rs)</option>
+      </select>
+
+      <select>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
+    </div>
+
+    <ul class="showcase">
+      <li>
+        <div class="seat"></div>
+        <small>Available</small>
+      </li>
+      <li>
+        <div class="seat selected"></div>
+        <small>Selected</small>
+      </li>
+      <li>
+        <div class="seat occupied"></div>
+        <small>Occupied</small>
+      </li>
+    </ul>
+
+    <div class="container">
+      <span class="dir">All eyes this way please!</span>
+      <div class="screen"></div>
+
+      
+
+      <div class="row">
+        <div class="seat" >1</div>
+        <div class="seat">2</div>
+        <div class="seat">3</div>
+        <div class="seat">4</div>
+        <div class="seat">5</div>
+        <div class="seat">6</div>
+        <div class="seat">7</div>
+        <div class="seat">8</div>
+        <div class="seat">9</div>
+        <div class="seat">10</div>
+        <div class="seat">11</div>
+        <div class="seat">12</div>
+        <div class="seat">13</div>
+      </div>
+      <div class="row">
+        <div class="seat">14</div>
+        <div class="seat">15</div>
+        <div class="seat">16</div>
+        <div class="seat occupied">17</div>
+        <div class="seat occupied">18</div>
+        <div class="seat">19</div>
+        <div class="seat">20</div>
+        <div class="seat">21</div>
+        <div class="seat">22</div>
+        <div class="seat">23</div>
+        <div class="seat">24</div>
+        <div class="seat">25</div>
+        <div class="seat">26</div>
+      </div>
+      
+      <hr>
+
+      <div class="row" style="margin-top:15px;">
+        <div class="seat">27</div>
+        <div class="seat">28</div>
+        <div class="seat">29</div>
+        <div class="seat">30</div>
+        <div class="seat">31</div>
+        <div class="seat">32</div>
+        <div class="seat occupied">33</div>
+        <div class="seat occupied">34</div>
+        <div class="seat occupied">35</div>
+        <div class="seat occupied">36</div>
+        <div class="seat occupied">37</div>
+        <div class="seat occupied">38</div>
+        <div class="seat occupied">39</div>
+      </div>
+      <div class="row">
+        <div class="seat">40</div>
+        <div class="seat">41</div>
+        <div class="seat">42</div>
+        <div class="seat">43</div>
+        <div class="seat">44</div>
+        <div class="seat">45</div>
+        <div class="seat occupied">46</div>
+        <div class="seat occupied">47</div>
+        <div class="seat occupied">48</div>
+        <div class="seat occupied">49</div>
+        <div class="seat occupied">50</div>
+        <div class="seat occupied">51</div>
+        <div class="seat occupied">52</div>
+      </div>
+      <div class="row">
+        <div class="seat">53</div>
+        <div class="seat">54</div>
+        <div class="seat">55</div>
+        <div class="seat">56</div>
+        <div class="seat">57</div>
+        <div class="seat">58</div>
+        <div class="seat">59</div>
+        <div class="seat">60</div>
+        <div class="seat">61</div>
+        <div class="seat">62</div>
+        <div class="seat">63</div>
+        <div class="seat">64</div>
+        <div class="seat">65</div>
+      </div>
+      
+      <hr>
+
+      <div class="row" style="margin-top:15px;">
+        <div class="seat">66</div>
+        <div class="seat">67</div>
+        <div class="seat">68</div>
+        <div class="seat occupied">69</div>
+        <div class="seat occupied">70</div>
+        <div class="seat">71</div>
+        <div class="seat">72</div>
+        <div class="seat">73</div>
+        <div class="seat">74</div>
+        <div class="seat">75</div>
+        <div class="seat">76</div>
+        <div class="seat">77</div>
+        <div class="seat">78</div>
+      </div>
+      <div class="row">
+        <div class="seat">79</div>
+        <div class="seat">80</div>
+        <div class="seat">81</div>
+        <div class="seat">82</div>
+        <div class="seat occupied">83</div>
+        <div class="seat occupied">84</div>
+        <div class="seat occupied">84</div>
+        <div class="seat">85</div>
+        <div class="seat">86</div>
+        <div class="seat">87</div>
+        <div class="seat">88</div>
+        <div class="seat">89</div>
+        <div class="seat">90</div>
+      </div>
+    </div>
+
+    <p class="text">
+      You have selected <span id="count">0</span> seats for a price of Rs<span
+        id="total"
+        >0</span
+      >
+    </p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
