@@ -120,7 +120,8 @@ body{
 
 .box2 a{
     color: rgb(204, 204, 204);
-    text-decoration: none;   
+    text-decoration: none; 
+    font-size: 13px;  
 }
 
 .nav-container ul a:hover{
